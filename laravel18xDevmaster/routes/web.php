@@ -127,5 +127,5 @@ Route::get('/named/show',[UserProfileController::class, 'show']);
 Route::group(['prefile'=>'admin'],function(){
     route::get('/',function(){return "<h1> admin home </h1>";});
     route::get('/account',function(){return "<h1> admin account </h1>";});
-    route::get('/product',function(){return "<h1> admin product </h1>";});
+    route::get('/product',function(){return "<h1> admin  </h1>";});
 });
